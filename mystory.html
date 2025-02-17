@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tebogo Mogale's Life Story</title>
     <style>
+        /* General Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -29,11 +30,12 @@
         }
 
         img {
-            max-width: 100%;
+            max-width: 100%; /* Ensure image scales down on smaller screens */
             height: auto;
             border-radius: 8px;
-            margin: 20px 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            display: block; /* Center the image */
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
         }
 
         p {
@@ -79,6 +81,47 @@
         .whatsapp-contact a {
             color: #25D366;
             text-decoration: none;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px; /* Reduce padding for smaller screens */
+            }
+
+            h1 {
+                font-size: 24px; /* Adjust heading size for smaller screens */
+            }
+
+            h2 {
+                font-size: 20px; /* Adjust subheading size for smaller screens */
+            }
+
+            img {
+                max-width: 80%; /* Make the image slightly smaller on mobile */
+            }
+
+            blockquote {
+                font-size: 14px; /* Reduce quote font size for readability */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 22px; /* Further reduce heading size for very small screens */
+            }
+
+            h2 {
+                font-size: 18px; /* Further reduce subheading size */
+            }
+
+            img {
+                max-width: 90%; /* Make the image larger relative to the screen */
+            }
+
+            blockquote {
+                font-size: 13px; /* Further reduce quote font size */
+            }
         }
     </style>
 </head>
@@ -128,7 +171,7 @@
             In 2024, I expanded my reach by becoming a private tutor for Statistics and Probability at my university. Through dedication and tailored support, I achieved a 100% pass rate among my students and produced several distinctions. Beyond academics, Infinity Academy holds immense personal significance for me. Having lost my mother and grown up without my father, I couldn’t always celebrate my achievements the way I wanted to. However, seeing the students we help make their parents proud brings me immense joy and fulfillment.
         </p>
 
-        <!-- Picture at the End -->
+        <!-- Picture with Shadow -->
         <img src="WhatsApp Image 2025-02-17 at 09.44.13_056c3134.jpg" alt="Tebogo Mogale">
 
         <h2>Advice to Students</h2>
