@@ -1,2 +1,0 @@
-# mystory
-mystory
